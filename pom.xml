@@ -29,8 +29,8 @@
 			    <cloudHubDeployment>
 			      <uri>https://anypoint.mulesoft.com</uri>
 			      <muleVersion>${app.runtime}</muleVersion>
-			      <username>Xtivia</username>
-			      <password>Xtivia@2019</password>
+			      <username>*******</username>
+			      <password>*******</password>
 			      <applicationName>mule-cicd-v1</applicationName>
 			      <environment>Sandbox</environment>
 			      <workers>1</workers>

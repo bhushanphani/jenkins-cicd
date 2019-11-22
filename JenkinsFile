@@ -1,6 +1,9 @@
 pipeline {
   agent any
   stages {
+  stage('SCM Checkout'){
+  git 'https://github.com/bhushanphani/jenkins-cicd'
+  }
     stage('Deploy CloudHub') { 
       steps {
         sh 'mvn clean package deploy -DmuleDeploy'

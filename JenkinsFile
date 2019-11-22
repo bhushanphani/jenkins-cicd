@@ -3,7 +3,7 @@ pipeline {
   stages {
   stage('SCM Checkout'){
       steps{
-  git 'https://github.com/bhushanphani/jenkins-cicd'
+  git 'https://github.com/bhushanphani/jenkins-cicd.git'
      }
   }
     stage('Deploy CloudHub') { 

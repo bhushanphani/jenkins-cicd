@@ -8,7 +8,7 @@ pipeline {
   }
     stage('Deploy CloudHub') { 
       steps {
-        sh 'mvn clean package deploy -DmuleDeploy'
+        sh 'mvn clean install'
       }
     }
   }
